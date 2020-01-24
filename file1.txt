@@ -1,0 +1,13 @@
+removing present .git 
+
+delete old repo
+cd /path/to/project/which/is/attached/to/present/repo
+
+delete repo
+rm -rf .git
+
+delete submodule config file
+rm -f- path/to/project/.git
+
+delete the list of submodules
+rm -f .gitmodules
